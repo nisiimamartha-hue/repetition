@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <!-- Link to your CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>Built from scratch using HTML and CSS!</p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <section class="about">
+            <h2>About This Site</h2>
+            <p>This is a simple template to help you get started with web development.</p>
+            <button id="clickMeBtn">Click Me!</button>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 My Website. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to optional JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+/* General Reset & Fonts */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    text-align: center;
+}
+
+/* Header Styling */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main Content Styling */
+main {
+    padding: 40px 20px;
+}
+
+.about {
+    background: white;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button Styling */
+button {
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
